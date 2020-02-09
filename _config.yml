@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Praveen Pareek"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Pune, India"
   email            :
@@ -297,8 +297,8 @@ defaults:
 
   # _pages
   -scope:
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: true
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
