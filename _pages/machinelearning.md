@@ -5,7 +5,7 @@ title: "Machine Learning Posts by Tags"
 author_profile: true
 header:
   image: "/images/palmtreepattern.jpg"
-
+---
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
