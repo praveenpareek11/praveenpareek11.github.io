@@ -9,8 +9,8 @@ tags:
   - data science
   - natural language processing
   - time series analysis
-header:
-  image: "/assets/images/reviewanalysis.png"
+#header:
+#  image: "/assets/images/reviewanalysis.png"
 excerpt: "Machine Learning, Perceptron, Data Science"
 ---
 
