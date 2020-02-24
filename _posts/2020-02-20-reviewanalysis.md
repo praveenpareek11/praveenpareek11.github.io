@@ -1,5 +1,5 @@
 ---
-title: "NLP and Time Series Analysis Project: Hotel Review Analysis"
+title: "Hotel Review Analysis"
 last_modified_at: 2020-02-20T16:20:02-05:00
 categories:
   - Blog
@@ -15,11 +15,11 @@ excerpt: "Machine Learning, Perceptron, Data Science"
 ---
 
 
-# Hotel Review Analysis
+### NLP and Time Series Analysis Project [link](https://github.com/praveenpareek11/HotelReviewAnalysis)
 
 
 
-### The purpose is:
+#### The purpose is:
 - To analyse the **Negative Review** (Text format) using **NLP techniques** to extract the **keywords** which are causing the negative reviews. It outputs the top 100 keywords each in unigram, bigram and trigram category.
 e.g.
   - **unigram:** service, poor, old, noisy, dirty, rude, uncomfortable etc.
