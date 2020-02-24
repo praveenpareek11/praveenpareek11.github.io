@@ -3,6 +3,35 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I'm a Data Scientist having experience in NLP, Computer Vision using Python. I also know RESTful API, Google Analytics and Web Development.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My skills include:
+**ALGORITHMS:**
+
+
+- **ML Algorithms:** SVM, Linear Regression, Logistic Regression, Naive Bayes Classifier, Random Forest, Decision Trees.
+- **Other Algorithms:** Gradient Descent, AdaBoost, Principal Component Analysis (PCA), CNN, RNN, LSTMs, BiLSTM, Transformers.
+- **NLP Techniques:** POS Tagging, NER, Text Embedding, Machine Translation, Conversational Bot, Seq2Seq Model, Entity Extraction, Sentiment Analysis. FuzzyWuzzy.
+- **Deep Learning Frameworks:** TensorFlow, OpenCV, Flair, Pillow (Python Image Library), Keras, PyTorch, DialogFlow.
+- **Web Technologies:** HTTP, RESTful API, Flask, JSON.
+- **Database:** SQL, NoSQL.
+
+**MACHINE LEARNING LIBRARIES:**
+- **Data Manipulation and Scientific:** Pandas, Numpy, SciPy.
+- **Visualization Libraries:** Matplotlib, Seaborn.
+- **Web Scraping Libraries:** Selenium, BeautifulSoup, Requests.
+
+**STATISTICS:**
+- Distributions
+- Describing and displaying data
+- Hypothesis tests and confidence intervals
+
+**Others:**
+- MS-Suite
+- GitHub
+- Google Analytics
+
+**INTERESTS:**​​​​​​​
+- To actively read about advancements in AI (Sources: Research Papers, Medium articles and other blogs.
+- Photography
+- Blogging
