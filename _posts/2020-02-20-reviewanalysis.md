@@ -10,7 +10,7 @@ tags:
   - natural language processing
   - time series analysis
 header:
-  image: "/images/reviewanalysis/analysis.jpg"
+  image: "/assets/images/reviewanalysis.png"
 excerpt: "Machine Learning, Perceptron, Data Science"
 ---
 
