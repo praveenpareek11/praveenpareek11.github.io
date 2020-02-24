@@ -6,7 +6,7 @@ title: "About"
 I'm a Data Scientist having experience in NLP, Computer Vision using Python. I also know RESTful API, Google Analytics and Web Development.
 
 My skills include:
-**ALGORITHMS:**
+#### **ALGORITHMS:**
 
 
 - **ML Algorithms:** SVM, Linear Regression, Logistic Regression, Naive Bayes Classifier, Random Forest, Decision Trees.
@@ -16,22 +16,22 @@ My skills include:
 - **Web Technologies:** HTTP, RESTful API, Flask, JSON.
 - **Database:** SQL, NoSQL.
 
-**MACHINE LEARNING LIBRARIES:**
+#### **MACHINE LEARNING LIBRARIES:**
 - **Data Manipulation and Scientific:** Pandas, Numpy, SciPy.
 - **Visualization Libraries:** Matplotlib, Seaborn.
 - **Web Scraping Libraries:** Selenium, BeautifulSoup, Requests.
 
-**STATISTICS:**
+#### **STATISTICS:**
 - Distributions
 - Describing and displaying data
 - Hypothesis tests and confidence intervals
 
-**Others:**
+#### **Others:**
 - MS-Suite
 - GitHub
 - Google Analytics
 
-**INTERESTS:**​​​​​​​
+#### **INTERESTS:**​​​​​​​
 - To actively read about advancements in AI (Sources: Research Papers, Medium articles and other blogs.
 - Photography
 - Blogging
