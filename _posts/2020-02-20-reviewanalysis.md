@@ -15,7 +15,7 @@ excerpt: "Machine Learning, Perceptron, Data Science"
 ---
 
 
-### NLP and Time Series Analysis Project [link](https://github.com/praveenpareek11/HotelReviewAnalysis)
+### [NLP and Time Series Analysis Project](https://github.com/praveenpareek11/HotelReviewAnalysis)
 
 
 

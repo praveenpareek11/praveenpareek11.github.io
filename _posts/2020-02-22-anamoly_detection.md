@@ -13,7 +13,7 @@ excerpt: "Machine Learning, Perceptron, Data Science"
 ---
 
 
-#### Credit Card Fraud Detection [link](https://github.com/praveenpareek11/Anamoly-Detection)
+#### [Credit Card Fraud Detection](https://github.com/praveenpareek11/Anamoly-Detection)
 
 
 ## Introduction
