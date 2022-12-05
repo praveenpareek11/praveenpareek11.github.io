@@ -17,7 +17,7 @@ title: Praveen Pareek
 logo: "/assets/images/88x88.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-             "Data Scientist ･ Technical Writer ･ IIT(ISM)Dhanbad"
+             "Data Scientist ･ Technical Writer
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
@@ -73,9 +73,9 @@ author:
     - label: "Medium-Blog"
       icon: "fab fa-medium fa-fw"
       url: "https://praveen-pareek.medium.com"
-    - label: "Blog"
-      icon: "fab fa-blogger fa-fw"
-      url: "https://praveenpareek11.blogspot.com/"
+    # - label: "Blog"
+    #   icon: "fab fa-blogger fa-fw"
+    #   url: "https://praveenpareek11.blogspot.com/"
 
 footer:
   links:
@@ -91,9 +91,9 @@ footer:
     - label: "Medium-Blog"
       icon: "fab fa-medium fa-fw"
       url: "https://praveen-pareek.medium.com"
-    - label: "Blog"
-      icon: "fab fa-blogger fa-fw"
-      url: "https://praveenpareek11.blogspot.com/"
+    # - label: "Blog"
+    #   icon: "fab fa-blogger fa-fw"
+    #   url: "https://praveenpareek11.blogspot.com/"
 
 defaults:
   # _posts
