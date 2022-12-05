@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-05T14:01:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Praveen Pareek</title><subtitle>&quot;Data Scientist ･ Technical Writer ･ IIT(ISM)Dhanbad&quot;</subtitle><author><name>Praveen Pareek</name></author><entry><title type="html">Purchase Behaviour of Users in Online Retail</title><link href="http://localhost:4000/blog/Digital-Marketing/" rel="alternate" type="text/html" title="Purchase Behaviour of Users in Online Retail" /><published>2020-03-04T00:00:00+05:30</published><updated>2020-03-05T02:50:02+05:30</updated><id>http://localhost:4000/blog/Digital-Marketing</id><content type="html" xml:base="http://localhost:4000/blog/Digital-Marketing/">&lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This data is about the users who actually purchased some items after browsing the website and visited certain parts of website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;problem-statement&quot;&gt;Problem Statement:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Customer segmentation is the problem of uncovering information about a firm’s customer base, based on their interactions with the business.&lt;/li&gt;
+  &lt;li&gt;In most cases this interaction is in terms of their purchase behavior and patterns. We explore some of the ways in which this can be used.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;approach-taken&quot;&gt;Approach Taken:&lt;/h3&gt;
+&lt;p&gt;The approach taken is to divide the customer base in different segments, which will help in the understanding of following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Customer Understanding.&lt;/li&gt;
+  &lt;li&gt;Target Marketing.&lt;/li&gt;
+  &lt;li&gt;Finding Latent Customer Segments.&lt;/li&gt;
+  &lt;li&gt;Higher Revenue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the Customer Segmentation I used &lt;strong&gt;Clustering&lt;/strong&gt; Technique.&lt;/p&gt;
+
+&lt;p&gt;Here is one of the plots:
+&lt;img src=&quot;https://user-images.githubusercontent.com/36000962/75844814-36757d80-5dfd-11ea-9b42-5e4538c2bdb5.png&quot; alt=&quot;download&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-steps-include&quot;&gt;The steps include:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exploratory Data Analysis&lt;/li&gt;
+  &lt;li&gt;Deciding the Clustering Strategy:&lt;/li&gt;
+  &lt;li&gt;Recency&lt;/li&gt;
+  &lt;li&gt;Frequency&lt;/li&gt;
+  &lt;li&gt;Monetary Value&lt;/li&gt;
+  &lt;li&gt;Data Cleaning&lt;/li&gt;
+  &lt;li&gt;Data Pre-processing.&lt;/li&gt;
+  &lt;li&gt;K-means Clustering&lt;/li&gt;
+  &lt;li&gt;Cluster Analysis&lt;/li&gt;
+  &lt;li&gt;Cluster Description.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;interpretation-of-results&quot;&gt;Interpretation of Results:&lt;/h3&gt;
+
+&lt;h4 id=&quot;initial-analysis-tells-us-that-not-all-the-users-who-browsed-purchased-items&quot;&gt;Initial analysis tells us that not all the users who browsed, purchased items.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Some of them bought.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Others didn’t&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;We see the maximum sale is from 22 to 3 hours (11 PM to 3 AM.)&lt;/li&gt;
+  &lt;li&gt;Comparatively less sales from 4:00 AM to 1:00 PM.&lt;/li&gt;
+  &lt;li&gt;The customers purchasing during 10:00 PM to 12:00 AM buy more costly items than the users purchasing from 12:00 AM to 3:00 AM.&lt;/li&gt;
+  &lt;li&gt;We have 41,008 unique customers but almost 10% of total sales are contributed by only 1000 customers (based on the cumulative percentage aggregation in the preceding output).&lt;/li&gt;
+  &lt;li&gt;The next thing we want to determine is how many unique items the firm is selling.&lt;/li&gt;
+  &lt;li&gt;Looking at 3-D plot of Recency, Frequency and Monetary values:&lt;/li&gt;
+  &lt;li&gt;People who buy with a higher frequency and more recency tend to spend more based on the increasing trend in Monetary value with a corresponding increasing and decreasing trend for Frequency and Recency, respectively.&lt;/li&gt;
+  &lt;li&gt;By looking at the boxplots of different clusters we see the difference in their Amount of purchase with maximum, minimum and median amount.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More plots are:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/36000962/75844942-9a984180-5dfd-11ea-8728-cb274bd486d1.png&quot; alt=&quot;download (1)&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/36000962/75844944-9d933200-5dfd-11ea-9572-87650733f478.png&quot; alt=&quot;68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f33363030303936322f37353739313231332d33656534396538302d356439322d313165612d396361362d3730653038376530373332352e706e67&quot; /&gt;&lt;/p&gt;</content><author><name>Praveen Pareek</name></author><category term="Blog" /><category term="customer segmentation" /><category term="market analysis" /><category term="python" /><category term="data science" /><category term="k-means clustering" /><category term="visualization" /><category term="online retail" /><summary type="html">Machine Learning, Customer Segmentation, Online Retail, Data Science</summary></entry><entry><title type="html">RNA Seq Analysis</title><link href="http://localhost:4000/blog/RNA-Seq/" rel="alternate" type="text/html" title="RNA Seq Analysis" /><published>2020-02-26T00:00:00+05:30</published><updated>2020-02-27T02:50:02+05:30</updated><id>http://localhost:4000/blog/RNA-Seq</id><content type="html" xml:base="http://localhost:4000/blog/RNA-Seq/">&lt;h3 id=&quot;rna-seq-analysis&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/praveenpareek11/RNA-Seq&quot;&gt;RNA Seq Analysis&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;introduction&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;Pancreatic Adenocarcinoma (PAAD) is the third most common cause of death from cancer, with an
+overall 5-year survival rate of less than 5%, and is predicted to become the second leading cause of
+cancer mortality in the United States by 2030.&lt;/p&gt;
+
+&lt;p&gt;Ribonucleic acid (​ RNA​ ) is a polymeric molecule essential in various biological roles in coding,
+decoding, regulation and expression of genes.&lt;/p&gt;
+
+&lt;p&gt;RNA-Seq (RNA sequencing), is a sequencing technique to detect the quantity of RNA in a
+biological sample at a given moment. Here we have a dataset of normalized RNA Sequencing
+reads for pancreatic cancer tumors​ . The measurement consists of ~20,000 genes for 185
+pancreatic cancer tumors. The file format is ​ GCT , a tab-delimited file used for sharing gene
+expression data and metadata (details for each sample) for samples.&lt;/p&gt;
+
+&lt;p&gt;The GCT file is like &lt;strong&gt;multi-dimensional DataFrame&lt;/strong&gt;, which consists of 3 DataFrames combined in 2-D.&lt;/p&gt;
+
+&lt;p&gt;These are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;data_df:&lt;/strong&gt; It has 18465 rows (Gene ID) abd 183 columns (Sample Name/ID)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;row_metadata_df:&lt;/strong&gt; It has row metadata and When we see the type, It is empty dataframe. This means in our data, the row metadata is not present.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;col_metadata_df:&lt;/strong&gt; It has 183 columns (Sample Names/ID) and 124 rows (Column metadata like histological_type, Patient_ID, status(is he alive or not)) for each sample.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more details clink on the &lt;strong&gt;&lt;a href=&quot;https://github.com/praveenpareek11/RNA-Seq&quot;&gt;link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;image-of-the-all-sample-gene-distribution&quot;&gt;Image of the all sample gene distribution&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/36000962/75326736-2875a900-58a1-11ea-9354-4d566826fdda.png&quot; alt=&quot;gene_distribution&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;image-of-the-type-1-ifn-genes-25-genes--its-distribution-across-samples-of-exocrine&quot;&gt;Image of the Type 1 IFN genes (25 genes) –&amp;gt; it’s distribution across samples of Exocrine.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/36000962/75326741-2b709980-58a1-11ea-9891-5ef9725f59dc.png&quot; alt=&quot;gene_25&quot; /&gt;&lt;/p&gt;</content><author><name>Praveen Pareek</name></author><category term="Blog" /><category term="rna seq" /><category term="principal component analysis" /><category term="python" /><category term="data science" /><category term="rna sequencing" /><category term="visualization" /><summary type="html">Machine Learning, PCA, Data Science</summary></entry><entry><title type="html">Anamoly Detection</title><link href="http://localhost:4000/blog/anamoly_detection/" rel="alternate" type="text/html" title="Anamoly Detection" /><published>2020-02-22T00:00:00+05:30</published><updated>2020-02-23T02:50:02+05:30</updated><id>http://localhost:4000/blog/anamoly_detection</id><content type="html" xml:base="http://localhost:4000/blog/anamoly_detection/">&lt;h3 id=&quot;credit-card-fraud-detection&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/praveenpareek11/Anamoly-Detection&quot;&gt;Credit Card Fraud Detection&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;In this kernel we will use various predictive models to see how accurate they are in detecting whether a transaction is a normal payment or a fraud. As described in the dataset, the features are scaled and the names of the features are not shown due to privacy reasons. Nevertheless, we can still analyze some important aspects of the dataset. Let’s start!&lt;/p&gt;
+
+&lt;h3 id=&quot;goals&quot;&gt;Goals:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understand the little distribution of the “little” data that was provided to us.&lt;/li&gt;
+  &lt;li&gt;Create a 50/50 sub-dataframe ratio of “Fraud” and “Non-Fraud” transactions. (NearMiss Algorithm)&lt;/li&gt;
+  &lt;li&gt;Determine the Classifiers we are going to use and decide which one has a higher accuracy.&lt;/li&gt;
+  &lt;li&gt;Create a Neural Network and compare the accuracy to our best classifier.&lt;/li&gt;
+  &lt;li&gt;Understand common mistaked made with imbalanced datasets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;outline&quot;&gt;Outline:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Understanding our data
+    &lt;ol&gt;
+      &lt;li&gt;Gather Sense of our data&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Preprocessing
+    &lt;ol&gt;
+      &lt;li&gt;Scaling and Distributing&lt;/li&gt;
+      &lt;li&gt;Splitting the Data&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Random UnderSampling and Oversampling
+    &lt;ol&gt;
+      &lt;li&gt;Distributing and Correlating&lt;/li&gt;
+      &lt;li&gt;Anomaly Detection&lt;/li&gt;
+      &lt;li&gt;Dimensionality Reduction and Clustering (t-SNE)&lt;/li&gt;
+      &lt;li&gt;Classifiers&lt;/li&gt;
+      &lt;li&gt;A Deeper Look into Logistic Regression&lt;/li&gt;
+      &lt;li&gt;Oversampling with SMOTE&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Testing
+    &lt;ol&gt;
+      &lt;li&gt;Testing with Logistic Regression&lt;/li&gt;
+      &lt;li&gt;Neural Networks Testing (Undersampling vs Oversampling)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more reading follow this &lt;a href=&quot;https://github.com/praveenpareek11/Anamoly-Detection&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content><author><name>Praveen Pareek</name></author><category term="Blog" /><category term="machine learning" /><category term="python" /><category term="data science" /><summary type="html">Machine Learning, Perceptron, Data Science</summary></entry><entry><title type="html">Hotel Review Analysis</title><link href="http://localhost:4000/blog/reviewanalysis/" rel="alternate" type="text/html" title="Hotel Review Analysis" /><published>2020-02-20T00:00:00+05:30</published><updated>2020-02-21T02:50:02+05:30</updated><id>http://localhost:4000/blog/reviewanalysis</id><content type="html" xml:base="http://localhost:4000/blog/reviewanalysis/">&lt;h3 id=&quot;nlp-and-time-series-analysis-project&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/praveenpareek11/HotelReviewAnalysis&quot;&gt;NLP and Time Series Analysis Project&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;the-purpose-is&quot;&gt;The purpose is:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;To analyse the &lt;strong&gt;Negative Review&lt;/strong&gt; (Text format) using &lt;strong&gt;NLP techniques&lt;/strong&gt; to extract the &lt;strong&gt;keywords&lt;/strong&gt; which are causing the negative reviews. It outputs the top 100 keywords each in unigram, bigram and trigram category.
+e.g.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;unigram:&lt;/strong&gt; service, poor, old, noisy, dirty, rude, uncomfortable etc.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;bigram:&lt;/strong&gt; small room, customer service, extremely small, poor quality,poor breakfast, house keeping, pay extra etc.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;trigram:&lt;/strong&gt; room was small, member of staff, front desk staff, lot of noise, clean the room, need of refurbishment etc.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;strong&gt;Similarly for Positive Review (Text format)&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time Series Analysis&lt;/strong&gt; of the monthly traffic vs the average rating in that particular month.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;https://github.com/praveenpareek11/HotelReviewAnalysis&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content><author><name>Praveen Pareek</name></author><category term="Blog" /><category term="machine learning" /><category term="python" /><category term="data science" /><category term="natural language processing" /><category term="time series analysis" /><summary type="html">Machine Learning, Perceptron, Data Science</summary></entry></feed>

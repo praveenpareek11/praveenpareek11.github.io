@@ -1,0 +1,658 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Purchase Behaviour of Users in Online Retail - Praveen Pareek</title>
+<meta name="description" content="Machine Learning, Customer Segmentation, Online Retail, Data Science">
+
+
+  <meta name="author" content="Praveen Pareek">
+  
+  <meta property="article:author" content="Praveen Pareek">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Praveen Pareek">
+<meta property="og:title" content="Purchase Behaviour of Users in Online Retail">
+<meta property="og:url" content="http://localhost:4000/blog/Digital-Marketing/">
+
+
+  <meta property="og:description" content="Machine Learning, Customer Segmentation, Online Retail, Data Science">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2020-03-04T00:00:00+05:30">
+
+
+
+  <meta property="article:modified_time" content="2020-03-05T02:50:02+05:30">
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/Digital-Marketing/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Praveen Pareek Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/88x88.png" alt="Praveen Pareek"></a>
+        
+        <a class="site-title" href="/">
+          Praveen Pareek
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo.jpg" alt="Praveen Pareek" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Praveen Pareek</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Data Science Portfolio.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://praveenpareek11.github.io" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/praveenpareek/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/praveenpareek11" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://praveen-pareek.medium.com" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-medium fa-fw" aria-hidden="true"></i><span class="label">Medium-Blog</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Purchase Behaviour of Users in Online Retail">
+    <meta itemprop="description" content="Machine Learning, Customer Segmentation, Online Retail, Data Science">
+    <meta itemprop="datePublished" content="2020-03-04T00:00:00+05:30">
+    <meta itemprop="dateModified" content="2020-03-05T02:50:02+05:30">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/blog/Digital-Marketing/" class="u-url" itemprop="url">Purchase Behaviour of Users in Online Retail
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h3 id="introduction">Introduction:</h3>
+
+<ul>
+  <li>This data is about the users who actually purchased some items after browsing the website and visited certain parts of website</li>
+</ul>
+
+<h3 id="problem-statement">Problem Statement:</h3>
+<ul>
+  <li>Customer segmentation is the problem of uncovering information about a firm’s customer base, based on their interactions with the business.</li>
+  <li>In most cases this interaction is in terms of their purchase behavior and patterns. We explore some of the ways in which this can be used.</li>
+</ul>
+
+<h3 id="approach-taken">Approach Taken:</h3>
+<p>The approach taken is to divide the customer base in different segments, which will help in the understanding of following:</p>
+<ul>
+  <li>Customer Understanding.</li>
+  <li>Target Marketing.</li>
+  <li>Finding Latent Customer Segments.</li>
+  <li>Higher Revenue.</li>
+</ul>
+
+<p>For the Customer Segmentation I used <strong>Clustering</strong> Technique.</p>
+
+<p>Here is one of the plots:
+<img src="https://user-images.githubusercontent.com/36000962/75844814-36757d80-5dfd-11ea-9b42-5e4538c2bdb5.png" alt="download" /></p>
+
+<h4 id="the-steps-include">The steps include:</h4>
+<ul>
+  <li>Exploratory Data Analysis</li>
+  <li>Deciding the Clustering Strategy:</li>
+  <li>Recency</li>
+  <li>Frequency</li>
+  <li>Monetary Value</li>
+  <li>Data Cleaning</li>
+  <li>Data Pre-processing.</li>
+  <li>K-means Clustering</li>
+  <li>Cluster Analysis</li>
+  <li>Cluster Description.</li>
+</ul>
+
+<h3 id="interpretation-of-results">Interpretation of Results:</h3>
+
+<h4 id="initial-analysis-tells-us-that-not-all-the-users-who-browsed-purchased-items">Initial analysis tells us that not all the users who browsed, purchased items.</h4>
+<ul>
+  <li>Some of them bought.</li>
+  <li>
+    <p>Others didn’t</p>
+  </li>
+  <li>We see the maximum sale is from 22 to 3 hours (11 PM to 3 AM.)</li>
+  <li>Comparatively less sales from 4:00 AM to 1:00 PM.</li>
+  <li>The customers purchasing during 10:00 PM to 12:00 AM buy more costly items than the users purchasing from 12:00 AM to 3:00 AM.</li>
+  <li>We have 41,008 unique customers but almost 10% of total sales are contributed by only 1000 customers (based on the cumulative percentage aggregation in the preceding output).</li>
+  <li>The next thing we want to determine is how many unique items the firm is selling.</li>
+  <li>Looking at 3-D plot of Recency, Frequency and Monetary values:</li>
+  <li>People who buy with a higher frequency and more recency tend to spend more based on the increasing trend in Monetary value with a corresponding increasing and decreasing trend for Frequency and Recency, respectively.</li>
+  <li>By looking at the boxplots of different clusters we see the difference in their Amount of purchase with maximum, minimum and median amount.</li>
+</ul>
+
+<p>More plots are:</p>
+
+<p><img src="https://user-images.githubusercontent.com/36000962/75844942-9a984180-5dfd-11ea-8728-cb274bd486d1.png" alt="download (1)" />
+<img src="https://user-images.githubusercontent.com/36000962/75844944-9d933200-5dfd-11ea-9572-87650733f478.png" alt="68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f33363030303936322f37353739313231332d33656534396538302d356439322d313165612d396361362d3730653038376530373332352e706e67" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#customer-segmentation" class="page__taxonomy-item p-category" rel="tag">customer segmentation</a><span class="sep">, </span>
+    
+      <a href="/tags/#data-science" class="page__taxonomy-item p-category" rel="tag">data science</a><span class="sep">, </span>
+    
+      <a href="/tags/#k-means-clustering" class="page__taxonomy-item p-category" rel="tag">k-means clustering</a><span class="sep">, </span>
+    
+      <a href="/tags/#market-analysis" class="page__taxonomy-item p-category" rel="tag">market analysis</a><span class="sep">, </span>
+    
+      <a href="/tags/#online-retail" class="page__taxonomy-item p-category" rel="tag">online retail</a><span class="sep">, </span>
+    
+      <a href="/tags/#python" class="page__taxonomy-item p-category" rel="tag">python</a><span class="sep">, </span>
+    
+      <a href="/tags/#visualization" class="page__taxonomy-item p-category" rel="tag">visualization</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2020-03-04">March 4, 2020</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Purchase+Behaviour+of+Users+in+Online+Retail%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2FDigital-Marketing%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2FDigital-Marketing%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2FDigital-Marketing%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/RNA-Seq/" class="pagination--pager" title="RNA Seq Analysis
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/RNA-Seq/" rel="permalink">RNA Seq Analysis
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Machine Learning, PCA, Data Science
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/anamoly_detection/" rel="permalink">Anamoly Detection
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Machine Learning, Perceptron, Data Science
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/reviewanalysis/" rel="permalink">Hotel Review Analysis
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Machine Learning, Perceptron, Data Science
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://praveenpareek11.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/praveenpareek/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://github.com/praveenpareek11" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://praveen-pareek.medium.com" rel="nofollow noopener noreferrer"><i class="fab fa-medium fa-fw" aria-hidden="true"></i> Medium-Blog</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Praveen Pareek. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
